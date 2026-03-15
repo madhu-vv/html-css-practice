@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nested Layouts Example-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        p{
+            font-family: Roboto, Arial;
+            font-size: 16px;
+            color: gray;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .cat-preview{
+            vertical-align: top;
+            
+        }
+        .cat-thumbnail{
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .about-cat{
+            display: inline-block;
+            margin-right: 60px;
+            vertical-align: top;
+        }
+
+        .cat-image{
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+        }
+
+        .cat-name{
+            font-weight: bold;
+        }
+
+        button{
+            background-color: rgb(84, 84, 234);
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            padding: 8px; 
+            padding-left: 14px;
+            padding-right: 14px;
+            margin-top: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="cat-preview">
+    <div class="cat-thumbnail">
+        <img class="cat-image" src="cat1.jpg">
+    </div>
+    <div class="about-cat">
+        <p class="cat-name">Oliver</p>
+        <p>the cat</p>
+        <p>Popular</p>
+    </div>
+    <button>Follow</button>
+    </div>
+</body>
+
+</html>
